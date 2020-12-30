@@ -1,5 +1,5 @@
 import React from 'react'
-import footerAdornment from '../../images/footerAdornment.svg'
+import footerAdornment from '../../assets/images/footerAdornment.svg'
 import {makeStyles} from "@material-ui/core"
 
 const useStyles = makeStyles(theme => ({

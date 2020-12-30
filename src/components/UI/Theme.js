@@ -10,6 +10,19 @@ const theme = createMuiTheme({
         primary: {
             main: arcBlue
         }
+    },
+    overrides: {
+        MuiFormControlLabel: {
+            label: {
+                color: arcBlue,
+                fontWeight: '700',
+                fontSize: '1.4em'
+            },
+            labelPlacementStart: {
+                marginLeft: 0,
+                marginRight: '2em'
+            }
+        }
     }
 })
 

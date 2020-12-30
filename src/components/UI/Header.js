@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react'
 import AppBar from "@material-ui/core/AppBar"
 import {makeStyles, Toolbar} from "@material-ui/core"
-import logo from '../../images/logo.svg'
+import logo from '../../assets/images/logo.svg'
 
 const useStyles = makeStyles(theme => ({
     logo: {
@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => ({
     },
     toolbarMargin: {
         ...theme.mixins.toolbar,
-        marginBottom: '1em'
+        marginBottom: '2em'
     }
 }))
 
